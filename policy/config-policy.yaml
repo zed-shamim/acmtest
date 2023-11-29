@@ -91,8 +91,8 @@ spec:
                 !/hostroot/etc/machine-config-daemon/node-annotation.json*
                 !/hostroot/etc/pki/ca-trust/extracted/java/cacerts$
                 !/hostroot/etc/cvo/updatepayloads
+                !/hostroot/etc/cvo/testing
 
-                # Catch everything else in /etc
             kind: ConfigMap
             metadata:
               name: test-config
