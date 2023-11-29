@@ -92,7 +92,8 @@ spec:
                 !/hostroot/etc/pki/ca-trust/extracted/java/cacerts$
                 !/hostroot/etc/cvo/updatepayloads
                 !/hostroot/etc/cvo/testing
-
+                !/hostroot/
+                
             kind: ConfigMap
             metadata:
               name: test-config
